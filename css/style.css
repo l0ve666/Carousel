@@ -1,0 +1,185 @@
+.container {
+    max-width: 300px;
+    height: 400px;
+    margin: 200px auto;
+    background-color: white;
+    box-shadow: 1px 0.5px 3px 0 black;
+    size: 30px;
+    overflow: hidden;
+}
+
+.carousel {
+    max-width: 300px;
+    position: relative;
+    height: 300px;
+}
+
+carousel_item, .carousel {
+    display: flex;
+}
+
+.disnone {
+    display: none;
+}
+
+.carousel .carousel_item {
+    width: auto;
+    max-width: 300px;
+    height: auto;
+}
+
+
+.icons {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    vertical-align: bottom;
+    flex-direction: row;
+    transform-origin: 50% 50%;
+    transition: transform .3s linear;
+}
+
+
+#active:checked ~ .btn {
+    color: black;
+    transform: translateY(-5px);
+    transform-origin: 50% 50%;
+    transition: transform .1s linear;
+}
+
+#active1:checked ~ .btn1 {
+    color: black;
+    transform: translateY(-5px);
+    transform-origin: 50% 50%;
+    transition: transform .1s ease-in;
+}
+
+#active2:checked ~ .btn2 {
+    color: black;
+    transform: translateY(-5px);
+    transform-origin: 50% 50%;
+    transition: transform .1s linear;
+}
+
+.btn {
+    color: #DCDCDC;
+    content: "\f13c";
+    position: relative;
+    bottom: -55px;
+}
+
+
+.btn1 {
+    color: #DCDCDC;
+    content: "\f13b";
+    position: relative;
+    bottom: -55px;
+}
+
+.btn2 {
+    color: #DCDCDC;
+    content: "\f3b9";
+    position: relative;
+    bottom: -55px;
+}
+
+#active {
+    flex-direction: row;
+    bottom: -500px;
+}
+
+#active1 {
+    flex-direction: column;
+    bottom: -500px;
+}
+
+#active2 {
+    flex-direction: row;
+    bottom: -500px;
+}
+
+input {
+    display: none;
+}
+
+.linie {
+    width: 300px;
+    height: 2px;
+    display: flex;
+    position: relative;
+    bottom: -45px;
+    background-color: #DCDCDC;
+}
+
+
+#css {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    margin-top: 100px;
+    margin-left: 434px;
+    color: #EFADC3;
+    max-width: 300px;
+
+}
+
+#html {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    margin-top: 100px;
+    margin-left: 138px;
+    color: #EADF53;
+    max-width: 300px;
+}
+
+#js {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    margin-top: 100px;
+    margin-left: 736px;
+    color: #9091E3;
+    max-width: 300px;
+}
+
+
+.cssline {
+    width: 200px;
+    height: 8px;
+    display: flex;
+    position: absolute;
+    bottom: -40px;
+    background-color: #DCDCDC;
+    border-radius: 10px;
+}
+
+.cssline1 {
+    width: 150px;
+    height: 8px;
+    display: flex;
+    position: absolute;
+    bottom: -80px;
+    background-color: #DCDCDC;
+    border-radius: 10px;
+}
+
+.cssline2 {
+    width: 200px;
+    height: 10px;
+    display: flex;
+    position: absolute;
+    bottom: -120px;
+    background-color: #DCDCDC;
+    border-radius: 10px;
+}
+
+.cssline3 {
+    width: 100px;
+    height: 6px;
+    display: flex;
+    position: absolute;
+    bottom: 339px;
+    background-color: #DCDCDC;
+    border-radius: 10px;
+}
